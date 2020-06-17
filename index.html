@@ -7,62 +7,105 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
- 
-    <style>
-        .row div{
-            padding: 20px 10px;
-            border: 1px solid;
-        }
-    </style>
-    <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container">
-        <div class="row">
-             <div class="col-md-6">
-                 <h1>Hello, world!</h1>
-                 <h2>Meet Tabby</h2>
-                 <p>Tabby is a Computer Science student and the current Developer Student Club Lead at the University of Nairobi, Kenya.
-                    She is motivated by a desire to give back to the community, use her skills, to meet with like-minded people and have fun while doing so.</p>
-                 <p>These are some of the tech communities she is involved in :</p>
-                    <ul>
-                         <li>DSC Uon</li>
-                         <li>GDG Nairobi</li>
-                         <li>Women Techmakers</li>
-                     </ul>
-                </div>
-            <div class="col-md-6">
-            <img src = "images/Tabby.png.jpg" alt="Tabby" width=330px height=456px> 
-           </div>
-        </div>
-    
-    
-    </div>
-
-    <div class="container">
-        <div class="row" style="background:lightblue">
-            <div class="col-md-6">1</div>
-            <div class="col-md-6">2</div>
-        </div>
-        
-        <div class="row" style="background:pink">
-            <div class="col-md-6 col-lg-3">3</div>
-            <div class="col-md-6 col-lg-3">4</div>
-            <div class="col-md-6 col-lg-3">5</div>
-            <div class="col-md-6 col-lg-3">6</div>
-        </div>
-
-        <div class="row" style="background:yellow">
-            <div class="col-3">7</div>
-            <div class="col-3">8</div>
-            <div class="col-3">9</div>
-            <div class="col-3">10</div>
-        </div>
-    </div>
-
-    
      
+    <nav class="navbar navbar-expand-lg navbar-light bg-info navbar-inverse">
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+            
+          </div>
+        </div>
+    </nav>
 
+
+     <div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background: #333;">
+        <div class="container">
+            <h1 class="display-3">Welcome to Tabby's World</h1>
+            <p class="lead">A guiding light for the less enlightened...</p>
+       </div>
+    
+    </div>
+
+    
+    <div class="container text-muted">
+        
+        <!--cards-->
+        <div class="row">
+           <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="./images/Tabby.JPG" class="card-img-top-img-fluid.max-width: 50%" height=200px/>
+                <div class="card-body">
+                    <h3 class="card-title">DSC Lead</h3>
+                   <p class="card-text">Tabby the Developer Students club Lead at the University of Nairobi</p>
+                </div>
+              </div> 
+           </div>
+           <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./images/Tabitha.jpg" class="card-img-top-img-fluid.max-width: 50%" height=200px/>
+              <div class="card-body">
+                  <h3 class="card-title">Speaker</h3>
+                 <p class="card-text">Tabby the speaker at local and international events</p>
+              </div>
+            </div> 
+         </div>
+
+         <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./images/Kavyu.JPG" class="card-img-top-img-fluid.max-width: 50%" height=200px/>
+              <div class="card-body">
+                  <h3 class="card-title">Community Lead</h3>
+                 <p class="card-text">"There is nothing important to me than giving back to the community"</p>
+              </div>
+            </div> 
+         </div>
+
+         <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./images/Tabz.jpg" class="card-img-top-img-fluid.max-width: 50%" height=200px/>
+              <div class="card-body">
+                  <h3 class="card-title">Smiling Machine</h3>
+                 <p class="card-text">Tabby is a fun-loving person and will never miss a smile on her face</p>
+              </div>
+            </div> 
+         </div>
+        </div>
+
+     <h2 class="display-4 text-center py-5 my-4">Meet Tabby's Friends</h2>
+
+     <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+         <a class="nav-link active" href="#Uchenna" data-toggle="tab">Alvin Uchenna</a>
+         <a class="nav-link" href="#Isaac" data-toggle="tab">Isaac Sokari</a>
+         <a class="nav-link " href="#Darrel" data-toggle="tab">Darrel Idiagbor</a>
+         <a class="nav-link" href="#ikenna" data-toggle="tab">Ikenna Oyiih</a>
+     </nav>
+     <div class="tab-content py-5">
+         <div class="tab-pane" id="Uchenna">
+             <h3>Alvin Uchenna</h3>
+             <p><span data-toggle="tooltip" title="this is a tooltip" class="text-info" data-placement="bottom">FullStack</span>spanDeveloper</p>
+         </div>
+         <div class="tab-pane" id="Isaac">
+            <h3>Isaac Sokari</h3>
+            <p>Civil Engineer</p>
+        </div>
+        <div class="tab-pane" id="Darrel">
+            <h3>Darrel Idiagbor</h3>
+            <p>DevOps Engineer</p>
+        </div>
+        <div class="tab-pane " id="ikenna">
+            <h3>Ikenna Oyiih</h3>
+            <p>Front-end Developer</p>
+        </div>
+     </div>
+    </div>
 
 
 
@@ -71,5 +114,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+</body>
 </html>
